@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seher — The Album</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="album">
+
+        <p class="mini-title">NOW PLAYING</p>
+
+        <h1>SEHER — THE ALBUM</h1>
+
+        <p class="subtitle">6 tracks • no skips ♡</p>
+
+
+        <!-- PHOTO -->
+        <div class="photo-frame">
+
+            <img
+                id="trackImage"
+                src="images/photo1.jpg.JPG"
+                alt="Photo from Seher's life"
+            >
+
+        </div>
+
+
+        <!-- TRACK NUMBER -->
+        <p
+            id="trackNumber"
+            class="track-number"
+        >
+            TRACK 01
+        </p>
+
+
+        <!-- TITLE -->
+        <h2 id="trackTitle">
+            Meet Moki 🐱
+        </h2>
+
+
+        <!-- CAPTION -->
+        <p
+            id="trackDescription"
+            class="description"
+        >
+            This is my apartment cat, Moki! We've had her since August, and she brings our home to life.
+        </p>
+
+
+        <!-- PROGRESS BAR -->
+        <div class="progress">
+
+            <div id="progressBar"></div>
+
+        </div>
+
+
+        <!-- BUTTONS -->
+        <div class="buttons">
+
+            <button
+                class="arrow-button"
+                onclick="previousTrack()"
+            >
+                ◀
+            </button>
+
+
+            <button
+                class="center-button"
+                onclick="nextTrack()"
+            >
+                ♡
+            </button>
+
+
+            <button
+                class="arrow-button"
+                onclick="nextTrack()"
+            >
+                ▶
+            </button>
+
+        </div>
+
+
+        <!-- COUNTER -->
+        <p
+            id="counter"
+            class="counter"
+        >
+            01 / 06
+        </p>
+
+
+        <p class="footer">
+            coded with ♡ by Seher
+        </p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #ffd6e7,
+        #eee2ff,
+        #dcecff
+    );
+
+    color: #2d2433;
+}
+
+.album {
+    width: 390px;
+
+    background: rgba(255, 255, 255, 0.85);
+
+    padding: 30px;
+
+    border-radius: 30px;
+
+    text-align: center;
+
+    box-shadow: 0px 20px 50px
+        rgba(70, 40, 80, 0.20);
+}
+
+.mini-title {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #9b7aa5;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    margin-top: 0;
+    color: #8b7c91;
+    font-size: 13px;
+}
+
+.photo-frame {
+    width: 100%;
+    height: 300px;
+
+    margin-top: 25px;
+
+    border-radius: 22px;
+    overflow: hidden;
+
+    box-shadow: 0px 10px 25px
+        rgba(0, 0, 0, 0.15);
+}
+
+.photo-frame img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: opacity 0.3s;
+}
+
+.track-number {
+    margin-top: 25px;
+    margin-bottom: 5px;
+
+    font-size: 11px;
+    letter-spacing: 2px;
+
+    color: #a084aa;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    font-size: 27px;
+}
+
+.description {
+    min-height: 45px;
+
+    color: #6d6171;
+
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.progress {
+    width: 100%;
+    height: 5px;
+
+    background: #eadfea;
+
+    border-radius: 10px;
+
+    margin-top: 20px;
+
+    overflow: hidden;
+}
+
+#progressBar {
+    width: 16.67%;
+    height: 100%;
+
+    background: #9d75aa;
+
+    border-radius: 10px;
+
+    transition: width 0.4s;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    background: none;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.15);
+}
+
+.play {
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+
+    background: #2d2433;
+    color: white;
+}
+
+.counter {
+    font-size: 11px;
+    color: #9b8c9e;
+}
+
+.footer {
+    margin-top: 20px;
+
+    font-size: 10px;
+    letter-spacing: 1px;
+
+    color: #b2a4b5;
+}
