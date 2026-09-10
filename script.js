@@ -8,7 +8,7 @@ const tracks = [
             "This is my apartment cat, Moki! We've had her since August, and she brings our home to life.",
 
         image:
-            "images/photo1.jpg.JPG"
+            "photo1.jpg.JPG"
     },
 
 
@@ -20,7 +20,7 @@ const tracks = [
             "These are the best friends A&M gave me! I am so grateful to be surrounded by such amazing people.",
 
         image:
-            "images/photo2.jpg.JPG"
+            "photo2.jpg.JPG"
     },
 
 
@@ -32,7 +32,7 @@ const tracks = [
             "I am from Houston, TX! I love my city and all the people it gave me.",
 
         image:
-            "images/photo3.jpg.jpeg"
+            "photo3.jpg.jpeg"
     },
 
 
@@ -44,7 +44,7 @@ const tracks = [
             "This is my family! They are the people who shaped me into who I am today and provide me with immense love and support.",
 
         image:
-            "images/photo4.jpg.JPG"
+            "photo4.jpg.JPG"
     },
 
 
@@ -56,7 +56,7 @@ const tracks = [
             "I am a Physics major with a minor in Computer Science! I am involved with TAMU SPS and TAMU AKPSI.",
 
         image:
-            "images/photo5.jpg.jpg"
+            "photo5.jpg.jpg"
     },
 
 
@@ -68,7 +68,7 @@ const tracks = [
             "My biggest interest is music! I love concerts and discovering new music.",
 
         image:
-            "images/photo6.jpg.jpg"
+            "photo6.jpg.jpg"
     }
 
 ];
